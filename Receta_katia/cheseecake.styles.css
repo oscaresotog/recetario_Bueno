@@ -1,0 +1,30 @@
+.header{
+    color: rgb(204, 54, 129);
+    background-color: rgb(235, 212, 173);
+    padding: 15px;
+    margin: 10px 0;
+    width: 550px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body{
+    background-image: url("grabado-del-pastel-de-queso-delicioso-en-estilo-bosquejo-ilustración-vector-100002597.webp");
+    background-size: 250px;
+    background-repeat: repeat;
+}
+.img_main{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+}
+h3, h4{
+   color: rgb(204, 54, 129); 
+}
+.img_ingr{
+    width: 300px;
+}
+p, li{
+    color: rgb(116, 57, 30);
+}
