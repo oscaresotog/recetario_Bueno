@@ -1,0 +1,58 @@
+/*esto es el color de fondo*/
+body { 
+    background-color: plum; 
+}
+/* esto es la modificación al título*/
+h1 {
+    text-align: center; 
+    color: purple;     
+    font-weight: bold;   
+    font-family: Arial, sans-serif;
+}
+/* esto es la modificación de la imagen*/
+img {
+    display: block;    
+    margin-left: auto; 
+    margin-right: auto;
+    width: 50%;        
+}
+/* hice una tabla para más dinamismo*/
+table {
+    width: 80%;           
+    margin: 20px auto;    
+    border-collapse: collapse; 
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid purple; 
+    padding: 12px;          
+    text-align: center;       
+}
+
+th {
+    background-color: purple 
+                  
+}
+
+tr:nth-child(even) {
+    background-color: pink; 
+}
+/* esto es la modificación el texto de instrucciones*/
+.contenedor-central {
+    display: flex;         
+    flex-direction: column; 
+    align-items: center;
+    font-family: Arial, sans-serif;    
+    
+    
+    gap: 15px;              
+    margin: 20px auto;      
+    text-align: center;  
+    text-align: justify;    
+}
+
+.contenedor-central img {
+    max-width: 100%;       
+    height: auto;          
+}
