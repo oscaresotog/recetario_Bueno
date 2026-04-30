@@ -1,0 +1,50 @@
+.Ebody{
+    background-image:url("Fondo3.jpg");
+    background-size: cover;    
+    background-attachment: fixed;        
+}
+
+th, td {
+  border: 2px solid rgb(0, 0, 0); /* Borde interno */
+  padding: 10px; /* Espaciado interno */
+  img{
+    width: 80px;
+    height: 80px;
+  }
+} 
+
+.Cajas{
+    border: 3px solid black; 
+    background-color: rgb(222, 180, 220); 
+    border-collapse: collapse; 
+  
+}
+
+h1{
+    border: 3px solid rgb(14, 12, 12);
+    background-color: pink;
+    margin: 0% 30%;
+    text-align: center;
+    font-size: 60px;
+}
+
+h2{
+    border: 3px solid rgb(2, 69, 2);
+    background-color: darkseagreen;
+    margin: 2% 35%;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin: 0% 15%;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
