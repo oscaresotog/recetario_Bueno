@@ -1,0 +1,92 @@
+/*todo: Selectores/*
+/**/
+/*?Selector de etiqueta*/
+body {
+    margin: 0; /*Elimina el espacio por defecto*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+/** Selector de clase */
+.container{
+    padding: 300px; /*Espacio interno*/
+}
+/*! Selector por ID (ejemplo no usado en el HTML)*/
+#ejemplo{
+    color: blueviolet;
+}
+/* Selector descendente */
+.header_titulo {
+    color: white;
+} /*Aplica para el h1 dentro de header */
+
+/** Selector multiple*/
+
+h2, p{
+    margin-bottom: 20px;
+    }
+
+/*todo: Modelo de Caja*/
+.card{
+    border: solid 2px rgb(227, 150, 150);/*Borde*/
+    padding: 15px; /*Espacio interno*/
+    margin: 10px 0;/*Espacio externo*/
+    width: 200px; /*Ancho*/
+}
+/* todo: BEM*/
+/*? Bloque: card */
+/*? Elemento: card_title*/
+/*? Modificador : card --highlight*/
+
+.card_title{
+    font-size: 18px;
+}
+.card--highlight{
+    background-color: brown;
+}
+
+/*todo: Posicion*/
+
+.header{
+    position: relative; /*Posicion relativa*/
+
+}
+.header_titulo{
+    position: absolute; /*Posicion absoluta*/
+    top:0;
+    right: 0;
+}
+
+/*todo: Display*/
+.main{
+    display: flex;/*?Coloca los elementos en fila*/
+    gap: 10px; /*Espacio entre elementos*/
+
+}
+
+/*todo: GRID */
+.footer{
+    display: grid;/*?Activa el grid*/
+    grid-template-columns: 1fr 1fr; /*? 2 columnas iguales */
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+
+/** Extra */
+.header_titulo{
+    background-color: brown;
+    padding: 200 px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black; /* O #000000 */
+}
+
+img[src="CAFE.jpg"] {
+  width: 200px;
+  height: 200px;
+}
