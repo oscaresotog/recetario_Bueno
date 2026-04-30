@@ -1,0 +1,90 @@
+/* Fondo general */
+body {
+    background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(90deg, #d62828, #f77f00);
+    color: white;
+    padding: 60px 0;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Imagen */
+.custom-img {
+    max-width: 600px;
+    border-radius: 20px;
+    transition: transform 0.4s ease;
+}
+
+.custom-img:hover {
+    transform: scale(1.05);
+}
+
+/* Cards */
+.custom-card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.25);
+}
+
+/* Footer */
+.footer {
+    background-color: #003049;
+    color: white;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+
+/*todo: MAIN */
+
+/* Fondo */
+body {
+    background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(90deg, #d62828, #f77f00);
+    color: white;
+    padding: 60px 0;
+}
+
+/* Cards */
+.recipe-card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.recipe-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.recipe-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Botón */
+.btn {
+    border-radius: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #003049;
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+}
