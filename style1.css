@@ -1,0 +1,46 @@
+body{
+    margin: 0; /*? elimina ek espacio por defecto*/
+    front-family: Arial,Helvetica,sans-serif;
+}
+header{
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+.header_titulo{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.listado{
+    display: flex;
+    justify-content: center; /* centra ambas listas */
+    gap: 100px;              /* espacio entre ellas */
+}
+
+.ingredientes, .utensilios{
+    width: 300px;
+}
+.imagenes{
+    display: flex;
+    justify-content: center; /* centra ambas listas */
+    gap: 300px;              /* espacio entre ellas */
+}
+.pasos{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: bisque;
+}
+.final{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: blanchedalmond;
+}
+.final_imagen{
+    text-align: center;
+}
+.contenedor{
+    background-color: rgb(243, 185, 115);
+}
